@@ -1,3 +1,78 @@
+# Todo Dashboard
+
+I built this Todo Dashboard built with React, TypeScript, and Tailwind CSS. It includes user login using Context API, todo management with localStorage, analytics with a pie chart, and filter controls.
+
+## 1. **Login Page**
+
+- I create a simple login screen with two inputs username and password.
+- Login Credentials username: `admin`, password: `admin123`
+- On successful login, sets username and login state in context and localStorage and it is navigated to home screen.
+- Unauthorized users are redirected to login if they try to access the home.
+
+---
+
+### 2. **Todo List**
+
+- Users can:
+  - Add new todos.
+  - Mark todos as completed.
+  - Delete todos.
+- A todo object has three field (id: number, text: string, completed: boolean)
+- All todos are stored in localStorage.
+
+---
+
+### 3. **Analytics Panel**
+
+I have displayed these stats:
+
+- Total todos
+- Completed and incomplete (as numbers)
+- Completed and incomplete (in pie chart)
+
+---
+
+### 4. **Filter Controls**
+
+I have provided a filter bar with the following options:
+
+- All
+- Completed
+- Incomplete
+
+---
+
+### Tech Requirements
+
+I used
+
+- React (with functional components)
+- TypeScript (used basic types and interfaces)
+- Tailwind for styling
+- Recharts for pie chart
+- react-router-dom for routing
+
+---
+
+## Submission Checklist
+
+- `README.md` with setup steps
+- Folder structure: `src/[components, pages, context]`,
+- Login page
+- Todo dashboard
+- LocalStorage integration
+- Analytics panel
+- Filter logic
+- Type safety with TypeScript
+
+---
+
+## Bonus (Optional)
+
+- I used Context API for user state sharing and local storage for todos and user data.
+- Implemented a logout button.
+- Added form validation (e.g., empty todo prevention).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
